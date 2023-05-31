@@ -15,6 +15,7 @@ nav{
     top:0;
     left:0;
     height:40px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.416);
     z-index: 999;
     text-align: center;
 }
@@ -40,6 +41,7 @@ nav ul li a{
     color:white;
     padding:5px;
     border-radius: 5px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
 }
 
 nav ul li:hover{
@@ -52,6 +54,7 @@ header{
     background: url('../imagens/background1.jpg') center center no-repeat;
     background-size: cover;
     position: relative;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.419);
 }
 
 #titleContainer{
@@ -68,6 +71,11 @@ header{
 #titleContainer h1{
     font-family: 'Dancing Script', cursive;
     font-size: 3em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.437);
+}
+
+#titleContainer p{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.466);
 }
 
 section#quemsou{
@@ -87,6 +95,7 @@ section#quemsou{
     margin: 10px auto;
     background: url('../imagens/quem_sou.jpg') center center no-repeat;
     background-size: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.551);
 }
 
 #texto{
@@ -99,6 +108,7 @@ section#quemsou{
     font-size:300%;
     font-family: 'Dancing Script', cursive;
     margin:10px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.429);
 }
 
 #texto p{
@@ -118,6 +128,7 @@ section#quemsou{
     width:30%;
     text-decoration: none;
     text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.422);
 }
 
 #texto a:hover{
@@ -137,6 +148,7 @@ section#quemsou{
     font-family: 'Dancing Script', cursive;
     font-size: 400%;
     color: purple;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.447);
 }
 
 #videos p{
@@ -148,6 +160,7 @@ section#quemsou{
 
 #videos h2{
     color:purple;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.447);
 }
 
 #videos a#wp{
@@ -200,6 +213,8 @@ section#quemsou{
     left: 0;
     width: 100%;
     height: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.442);
+    border-radius: 5px;
   }
   
   footer{
@@ -218,6 +233,10 @@ footer *{
     padding:10px;
 }
 
+footer h1{
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.418);
+}
+
 #footer{
     text-align: left;
 }
@@ -231,6 +250,7 @@ footer > p > a{
     color:white;
     border:2px solid white;
     border-radius: 3px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.419);
 }
 
 footer > p > a:hover{
